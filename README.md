@@ -1,13 +1,13 @@
 # Data Capture
 
-## 1.1 General Information and Purpose
+## General Information and Purpose
 - **Service Name/Title:** `data_capture`
 - **Description and purpose:** Capture real-time data from edge devices.
 - **Owner/Contact Information:** ICCS
 
 ---
 
-## 1.2 Functional Requirements
+## Functional Requirements
 1. Receive data from different edge devices in near real time.  
 2. Validate data for anomalies and outliers.  
 3. Harmonise the data.  
@@ -15,7 +15,7 @@
 
 ---
 
-## 1.3 Non-Functional Requirements
+## Non-Functional Requirements
 - Captured data should be available for processing within a few seconds.  
 - Incoming data must be valid.  
 - Access limited to data owners and system operators.  
@@ -24,9 +24,9 @@
 
 ---
 
-## 1.4 Service Interfaces
+## Service Interfaces
 
-### 1.4.1 API Endpoints
+### API Endpoints
 
 #### Endpoint 1 — Retrieve Device Consumption Data for Last Day
 - **URL:** `/data/device/lastday/{deviceId}/{relay}`  
@@ -112,12 +112,12 @@
 
 ---
 
-### 1.4.2 UI Mock-ups
+### UI Mock-ups
 *(Not applicable)*  
 
 ---
 
-## 1.5 Data Model
+## Data Model
 
 ### Entities and Relationships
 - Users can manage one or more Houses.  
@@ -132,7 +132,7 @@
 
 ---
 
-## 1.6 Integration and Dependencies
+## Integration and Dependencies
 
 ### Roles
 - **Aggregator / Resource Aggregator:** Collects and integrates data, assesses flexibility, formulates bids.  
@@ -145,7 +145,7 @@
 
 ---
 
-## 1.7 Security and Privacy
+## Security and Privacy
 - **TLS Encryption:** Enforces HTTPS across all endpoints.  
 - **Keycloak Authentication:** Token-based identity management; tokens expire quickly for security.  
 - **Access Control:** Restricted to authorized users.  
