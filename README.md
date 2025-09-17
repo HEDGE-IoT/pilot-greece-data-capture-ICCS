@@ -151,8 +151,6 @@
 - **Access Control:** Restricted to authorized users.  
 
 ---
-
-## 1.8 Pre-Demo Phase WP5
 A dashboard was implemented for monitoring an EMQX cluster:  
 - **Cluster Overview:** Active nodes, client connections, topic/subscription count.  
 - **Metrics Dashboard:** Real-time performance (messages/sec, dropped, active connections).  
